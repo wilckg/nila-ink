@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6, p, 
+a, li, ul, ol,
+label, button{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home{
+    background: url('./images/bg_1.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.home .text-home{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.home .text-home .div-titulo{
+    width: 50vw;
+}
+
+.home .text-home .div-titulo p{
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.home .text-home .div-titulo p span.text-red{
+    color: #91110a;
+}
+
+.home .text-home .div-titulo p span.text-yellow{
+    color: #a06310;
+}
+
+.trabalhos{
+    background: url('./images/bg_trabalhos.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.artista{
+    background: url('./images/bg_artista.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.orcamento{
+    background: url('./images/bg_orcamento.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.contatos{
+    background: url('./images/bg_contato.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.contatos .div-contatos{
+    display: flex;
+    justify-content: center;
+    height: 300px !important;
+}
+
+.contatos .div-contatos .img-footer{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+.contatos .div-contatos .img-footer img.logo-footer{
+    width: 100px;
+    height: 100px;
+}
+
+.contatos .div-contatos .footer{
+    max-height: 70px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: center;
+    background-color: transparent;
+}
+
+.contatos .div-contatos .footer .links ul{
+    list-style: none;
+    color: #FFF;
+    font-size: 22px;
+    padding: 0;
+}
+
+.contatos .div-contatos .footer .localizacao{
+    width: 160px;;
+    color: #ffffff;
+}
+
+.contatos .div-contatos .footer .localizacao p{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.contatos .div-contatos .footer .whatsapp{
+    padding-bottom: 40px;
+    color: #FFF;
+}
+
+.contatos .div-contatos .footer .sociais{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.contatos .div-contatos .footer .sociais img{
+    width: 30px;
+    height: 30px;
+}
+.contatos .div-contatos .footer .sociais img.icon-facebook{
+    width: 15px !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: #ffffff;
+}
