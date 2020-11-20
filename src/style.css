@@ -121,5 +121,5 @@ label, button{
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
-    background: #ffffff;
+    background: #ffffff !important;
 }
