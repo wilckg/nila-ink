@@ -12,10 +12,10 @@ export default function Contatos() {
             <div className="footer">
                 <div className="links">
                     <ul>
-                        <li>Home</li>
-                        <li>Trabalhos</li>
-                        <li>Artista</li>
-                        <li>Orçamento</li>
+                        <li><a href="#firstPage">Home</a></li>
+                        <li><a href="#secondPage">Trabalhos</a></li>
+                        <li><a href="#thirdPage">Artista</a></li>
+                        <li><a href="#fourthPage">Orçamento</a></li>
                     </ul>
                 </div>
                 <div className="localizacao">
@@ -28,10 +28,10 @@ export default function Contatos() {
                     <span>(11)1234-4567</span>
                 </div>
                 <div className="sociais">
-                    <a href="/"><img src={icon_facebook} className="icon-facebook" alt="icon-facebook"  /></a>
-                    <a href="/"><img src={icon_twitter} className="icon-twitter" alt="icon-twitter"  /></a>
-                    <a href="/"><img src={icon_instagram} className="icon-instagram" alt="icon-instagram"  /></a>
-                    <a href="/"><img src={icon_pinterest} className="icon-pinterest" alt="icon-pinterest"  /></a>
+                    <a href="/" target="_blank" rel="noreferrer"><img src={icon_facebook} className="icon-facebook" alt="icon-facebook"  /></a>
+                    <a href="/" target="_blank" rel="noreferrer"><img src={icon_twitter} className="icon-twitter" alt="icon-twitter"  /></a>
+                    <a href="https://www.instagram.com/nila.ink/" target="_blank" rel="noreferrer"><img src={icon_instagram} className="icon-instagram" alt="icon-instagram"  /></a>
+                    <a href="/" target="_blank" rel="noreferrer"><img src={icon_pinterest} className="icon-pinterest" alt="icon-pinterest"  /></a>
                 </div>
             </div>
             <div className="img-footer">

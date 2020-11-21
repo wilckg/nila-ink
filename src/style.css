@@ -69,6 +69,48 @@ label, button{
     background-size: 100% 100%;
 }
 
+.artista .div-artista{
+    display: flex;
+    justify-content: center;
+}
+
+.artista .div-artista .info-artista{
+    background: transparent;
+    display: grid;
+    height: 90vh;
+    width: 90vw;
+    grid-template-columns: repeat(2, auto);
+    /* align-items: center; */
+    justify-items: center;
+}
+
+.artista .div-artista .info-artista .div-artista-foto{
+    background: url('./images/moldura-artista.png') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artista .div-artista .info-artista .div-artista-foto .img-artista{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.artista .div-artista .info-artista .div-artista-texto{
+    width: 400px;
+}
+
+.artista .div-artista .info-artista .div-artista-texto p{
+    margin: 0;
+    color: #d8d8d8;
+    font-size: 35px;
+    padding-top: 70px;
+}
+
 .orcamento{
     background: url('./images/bg_orcamento.png') no-repeat;
     background-size: 100% 100%;
@@ -149,9 +191,14 @@ label, button{
 
 .contatos .div-contatos .footer .links ul{
     list-style: none;
-    color: #FFF;
     font-size: 22px;
     padding: 0;
+}
+.contatos .div-contatos .footer .links ul li a{
+    color: #FFF;
+}
+.contatos .div-contatos .footer .links ul li a:link{
+    text-decoration: none;
 }
 
 .contatos .div-contatos .footer .localizacao{
