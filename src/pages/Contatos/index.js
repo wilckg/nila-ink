@@ -24,8 +24,8 @@ export default function Contatos() {
                 </div>
                 <div className="whatsapp">
                     <h2>Contato</h2>
-                    <span>WhatsApp</span><br />
-                    <span>(11)1234-4567</span>
+                    <span className="whatsapp-info">WhatsApp</span><br />
+                    <span className="whatsapp-info">(11)1234-4567</span>
                 </div>
                 <div className="sociais">
                     <a href="/" target="_blank" rel="noreferrer"><img src={icon_facebook} className="icon-facebook" alt="icon-facebook"  /></a>

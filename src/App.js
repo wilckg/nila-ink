@@ -7,6 +7,7 @@ import './style.css';
 import Contatos from './pages/Contatos';
 import Orcamento from './pages/Orcamento';
 import Artista from './pages/Artista';
+import Trabalhos from './pages/Trabalhos';
 
 // const pluginWrapper = () => {
 //   require('./statics/fullpage.scrollHorizontally.min');
@@ -32,7 +33,7 @@ const Fullpage = () => (
             <Home />
           </div>
           <div className="section trabalhos" data-percentage="100" data-centered="true">
-            <p>Section 2</p>
+            <Trabalhos />
           </div>
           <div className="section artista" data-percentage="100" data-centered="true">
             <Artista />
