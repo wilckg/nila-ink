@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-promo{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #191919;
+    margin: 0 !important;
+}
+
+.coluna-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-landpage{
+    width: 100px;
+}
+
+.coluna-corpo{
+    margin: 15px 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.promo-titulo{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.promo-titulo .text-red{
+    color: #91110a;
+}
+
+.promo-titulo .text-yellow{
+    color: #a06310;
+}
+
+.div-input-promo{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input-promo label{
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+.div-input-promo input{
+    border-radius: 5px;
+}
+
+.div-button-promo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.btn-danger{
+    color: #FFF !important;
+    font-weight: 600 !important;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #91110a !important;
+    border-color: #91110a !important;
+}
+
+.container-promo-cupom{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #191919;
+    margin: 0 !important;
+}
+
+.container-promo-info .promo-image img{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+
+.container-promo-cupom .promo-info{
+    display: none;
+}
+
+.container-promo-cupom .container-promo-info .promo-info p{
+    color: #d8d8d8;
+    font-size: 55px;
+    padding-top: 70px;
+}
+
+.container-promo-cupom .container-promo-info .promo-info p .text-red{
+    color: #91110a;
+}
+
+.container-promo-cupom .container-promo-info .promo-info p .text-yellow{
+    color: #a06310;
+}
+
+.container-promo-cupom .container-promo-info .promo-info a p{
+    margin: 0;
+    color: #e2d7d7;
+    background-color: #72110c;
+    border: 3px #fff solid;
+    border-radius: 4px;
+    padding: 0px 10px;
+    font-size: 32px;
+    width: 140px;
+}
+
+.container-promo-cupom .container-promo-info .promo-info a:link{
+    text-decoration: none;
+}
+
+@media (min-width: 1000px){
+    .coluna-corpo{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-promo-info{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+        padding: 20px;
+        margin-top: 50px;
+        width: 80%;
+        border-width: 5px;
+        border-style: dashed;
+        border-color: #ccc;
+    }
+    .container-promo-info .promo-image{
+        display: flex;
+        justify-content: center;
+    }
+    .container-promo-info .promo-image img{
+        position: relative;
+        margin-top: 50px;
+        width: 370px;
+        height: 400px;
+    }
+    .container-promo-cupom{
+        display: flex;
+        justify-content: center;
+    }
+    .container-promo-cupom .container-promo-info {
+        height: 600px;
+    }
+    .container-promo-cupom .container-promo-info .promo-info{
+        display: flex;
+        flex-direction: column;
+    }
+}

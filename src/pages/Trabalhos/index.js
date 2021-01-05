@@ -22,18 +22,18 @@ export default function Trabalhos() {
                 <SimpleReactLightbox>
                     <SRLWrapper>
                         <div className="galeria">
-                            <img src={tatto1} />
-                            <img src={tatto2} />
-                            <img src={tatto3} />
-                            <img src={tatto4} />
-                            <img src={tatto5} />
-                            <img src={tatto6} />
-                            <img src={tatto7} />
-                            <img src={tatto8} />
-                            <img src={tatto9} />
-                            <img src={tatto10} />
-                            <img src={tatto11} />
-                            <img src={tatto12} />
+                            <img src={tatto1} alt=""/>
+                            <img src={tatto2} alt=""/>
+                            <img src={tatto3} alt=""/>
+                            <img src={tatto4} alt=""/>
+                            <img src={tatto5} alt=""/>
+                            <img src={tatto6} alt=""/>
+                            <img src={tatto7} alt=""/>
+                            <img src={tatto8} alt=""/>
+                            <img src={tatto9} alt=""/>
+                            <img src={tatto10} alt=""/>
+                            <img src={tatto11} alt=""/>
+                            <img src={tatto12} alt=""/>
                         </div>
                     </SRLWrapper>
                 </SimpleReactLightbox>

@@ -24,7 +24,7 @@
   }
   
   .nav {
-    display: grid;
+    display: grid !important;
     grid-area: nav;
     grid-template-columns: repeat(5, auto);
     align-items: center;
